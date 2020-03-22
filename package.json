@@ -1,0 +1,26 @@
+{
+  "name": "issue-volunteer",
+  "version": "1.0.0",
+  "description": "Ask anyone to volunteer for working on issues.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JazibJafri/issue-volunteer.git"
+  },
+  "keywords": [
+    "issue"
+  ],
+  "author": "JazibJafri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JazibJafri/issue-volunteer/issues"
+  },
+  "homepage": "https://github.com/JazibJafri/issue-volunteer#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1"
+  }
+}

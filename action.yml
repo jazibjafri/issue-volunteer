@@ -1,0 +1,26 @@
+name: "Issue Volunteer"
+description: "Ask anyone to volunteer for working on issues."
+inputs:
+  repo-token: # id of input
+    description: "repo token, can be passed using  {{ secrets.GITHUB_TOKEN }}"
+    required: true
+  volunteer-message:
+    description: "comment message asking for volunteers"
+    default: "I am willing to work on this issue"
+    required: false
+  label-name:
+    description: "custom label name"
+    default: "volunteer"
+    required: false
+  label-color:
+    description: "custom label color"
+    default: "F79A41"
+    required: false
+  label-desc:
+    description: "custom label description"
+    default: "Someone volunteered to work on this"
+    required: false
+
+runs:
+  using: "node12"
+  main: "index.js"
