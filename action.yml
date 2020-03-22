@@ -20,7 +20,9 @@ inputs:
     description: "custom label description"
     default: "Someone volunteered to work on this"
     required: false
-
+branding:
+  icon: search
+  color: white
 runs:
   using: "node12"
   main: "index.js"
